@@ -1,4 +1,50 @@
-* {
+/* {
     border: solid 2px red;
+} */
+
+#body {
+    padding: 0px;
 }
 
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #a41034;
+    border: solid 2px #000000;
+    color: #f9f9f9;
+
+}
+
+.results-container {
+    display: flex;
+    justify-content: center;
+
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+
+    border: solid 2px #000000;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: auto;
+
+    border: solid 2px #000000;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: center;
+
+    background-color: #a41034;
+    border: solid 2px #000000;
+    color: #fefefe;
+
+}
