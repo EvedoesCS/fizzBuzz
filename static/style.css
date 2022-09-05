@@ -19,11 +19,12 @@
 
 .results-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     height: 400px;
     width: auto;
-    overflow: hidden;
+    overflow: scroll;
 
     border: solid 2px #000000;
 }
