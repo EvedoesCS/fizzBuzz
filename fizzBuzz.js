@@ -18,7 +18,6 @@ function fizzBuzz(x)
 
         console.log(output)
     }
-
 }
 
 fizzBuzz(20)
